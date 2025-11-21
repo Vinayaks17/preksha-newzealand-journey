@@ -25,25 +25,25 @@ export const TimelineCard: React.FC<TimelineCardProps> = ({
   return (
     <div className="relative flex flex-col md:flex-row gap-8 md:gap-12 mb-20 group">
       
-      {/* 
-        DATE COLUMN (Desktop) 
+      {/*
+        DATE COLUMN (Desktop)
         Sticks to the left of the timeline line
       */}
       <div className="hidden md:flex flex-col items-end w-32 md:w-48 flex-shrink-0 pt-8 pr-8 text-right">
         {date && (
           <div className="sticky top-32 transition-all duration-500" data-aos="fade-right">
-             <span className="block font-serif text-4xl text-sage font-bold opacity-80">{date.split(' ')[0]}</span>
+             <span className="block font-serif text-5xl bg-gradient-to-r from-lavender to-sage bg-clip-text text-transparent font-bold">{date.split(' ')[0]}</span>
              {/* Only render the second line if there are more words, removed '|| Day' fallback */}
-             <span className="block font-sans text-sm text-gray-400 uppercase tracking-widest">{date.split(' ').slice(1).join(' ')}</span>
+             <span className="block font-sans text-sm text-mountainGray uppercase tracking-widest font-semibold">{date.split(' ').slice(1).join(' ')}</span>
           </div>
         )}
       </div>
 
-      {/* 
-        TIMELINE DOT & LINE MARKER 
+      {/*
+        TIMELINE DOT & LINE MARKER
         Positioned absolutely on the main line
       */}
-      <div className="absolute left-4 md:left-[12rem] top-10 w-4 h-4 bg-sage rounded-full border-4 border-cream z-10 shadow-md transform -translate-x-1/2 md:translate-x-[1px]"></div>
+      <div className="absolute left-4 md:left-[12rem] top-10 w-5 h-5 bg-gradient-to-br from-lavender to-sage rounded-full border-4 border-white z-10 shadow-lg transform -translate-x-1/2 md:translate-x-[1px]"></div>
 
       {/* 
         MAIN CONTENT CARD 
@@ -54,26 +54,26 @@ export const TimelineCard: React.FC<TimelineCardProps> = ({
         data-aos-duration="800"
         data-aos-delay={index * 50}
       >
-        <div className="bg-white p-4 md:p-6 rounded-2xl shadow-[0_10px_30px_-10px_rgba(0,0,0,0.05)] border border-stone-100 relative overflow-visible hover:shadow-xl transition-shadow duration-500">
-          
+        <div className="bg-white/95 backdrop-blur-sm p-6 md:p-8 rounded-2xl shadow-[0_15px_40px_-10px_rgba(155,133,196,0.2)] border-2 border-lavender/20 relative overflow-visible hover:shadow-[0_20px_60px_-10px_rgba(155,133,196,0.35)] hover:border-lavender/40 transition-all duration-500">
+
           {/* Mobile Date */}
           {date && (
-            <div className="md:hidden mb-3 flex items-center gap-2 text-sage font-bold text-sm uppercase tracking-wider">
-              <Calendar className="w-4 h-4" />
+            <div className="md:hidden mb-4 flex items-center gap-3 text-lavender font-bold text-sm uppercase tracking-wider">
+              <Calendar className="w-5 h-5" />
               {date}
             </div>
           )}
 
           {/* Images */}
-          <div className="mb-6">
+          <div className="mb-8 rounded-xl overflow-hidden border-2 border-lavender/10">
              <ImageGallery images={imageUrls} altText={title} />
           </div>
 
           <div className="flex flex-col md:flex-row gap-6">
             {/* Text Content */}
             <div className="flex-1">
-              <h3 className="font-serif text-2xl md:text-3xl text-softBlack font-bold mb-3">{title}</h3>
-              <p className="font-sans text-gray-600 text-sm leading-loose">
+              <h3 className="font-serif text-3xl md:text-4xl text-softBlack font-bold mb-4">{title}</h3>
+              <p className="font-sans text-mountainGray text-base leading-relaxed">
                 {description}
               </p>
             </div>
