@@ -12,8 +12,8 @@ export const TIMELINE_DATA: TimelineSectionData[] = [
         date: 'Day 1',
         description: 'Stepping off the plane into a whole new world. The air was crisp, the excitement was palpable, and the adventure had officially begun.',
         imageUrls: [
-          'https://picsum.photos/seed/nz-airport-arrival/800/600',
-          'https://picsum.photos/seed/luggage-cart/800/600'
+          '/images/arrival/one.jpeg',
+          '/images/arrival/two.jpeg'
         ],
         vinayakNote: {
           text: "Remember that surge of excitement when you first landed? And that late night standing outside, imagining beach that's the moment I knew your great adventure had truly begun."
@@ -25,8 +25,8 @@ export const TIMELINE_DATA: TimelineSectionData[] = [
         date: 'Week 1',
         description: 'Your first home away from home. A beautiful hotel stay right by the water, soaking in the initial vibes of the city.',
         imageUrls: [
-          'https://picsum.photos/seed/luxury-hotel-room/800/600',
-          'https://picsum.photos/seed/beach-view-balcony/800/600'
+          '/images/arrival/three.jpeg',
+          '/images/arrival/four.jpeg'
         ],
         vinayakNote: {
           text: "We booked this hotel together when you were still in India, and I remember how much you adored it. You loved that place so much you never wanted to leave!"
@@ -38,8 +38,8 @@ export const TIMELINE_DATA: TimelineSectionData[] = [
         date: 'The Hunt',
         description: 'Navigating the rental market, viewing different spots, and figuring out where to build your sanctuary in Auckland.',
         imageUrls: [
-          'https://picsum.photos/seed/city-map-walking/800/600',
-          'https://picsum.photos/seed/apartment-building/800/600'
+          '/images/arrival/five.jpeg',
+          '/images/arrival/six.jpeg'
         ],
         vinayakNote: {
           text: "I’m genuinely so proud of you, baby, for the way you explored different places and managed the search all on your own."
@@ -51,9 +51,8 @@ export const TIMELINE_DATA: TimelineSectionData[] = [
         date: 'New Home',
         description: 'Moving into your own apartment with that breathtaking view. Unpacking bags and finally settling into your own space.',
         imageUrls: [
-          'https://picsum.photos/seed/high-rise-view/800/600',
-          'https://picsum.photos/seed/keys-home/800/600',
-          'https://picsum.photos/seed/helicopter-landing/800/600'
+          '/images/arrival/seven.jpeg',
+          '/images/arrival/eight.jpeg'
         ],
         vinayakNote: {
           text: "You found the best place, and look how happy you are now! The view from your apartment is just breathtaking. Stalking that helicopter every time it lands was our little ritual! I already imagine coming to NZ and sharing that beautiful view with you while we sip tea."
