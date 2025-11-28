@@ -71,8 +71,8 @@ export const TIMELINE_DATA: TimelineSectionData[] = [
         date: 'On the Water',
         description: 'Riding the waves to Waiheke or Devonport. The wind in your hair and the ocean stretching out endlessly.',
         imageUrls: [
-          'https://picsum.photos/seed/ferry-boat/800/600',
-          'https://picsum.photos/seed/ocean-wake/800/600'
+          '/images/nz-firsts/nine.jpeg',
+          '/images/nz-firsts/ten.jpeg'
         ],
         vinayakNote: {
           text: "I loved hearing how much you enjoyed that ride you stayed on the upper deck the whole time! After hearing your stories, ab toh I'm for sure buying a yacht, haan!"
@@ -84,8 +84,8 @@ export const TIMELINE_DATA: TimelineSectionData[] = [
         date: 'Campus Life',
         description: 'Walking into campus, meeting professors, and starting the academic chapter of this journey.',
         imageUrls: [
-          'https://picsum.photos/seed/university-campus/800/600',
-          'https://picsum.photos/seed/lecture-hall/800/600'
+          '/images/nz-firsts/eleven.jpeg',
+          '/images/nz-firsts/twelve.jpeg'
         ],
         vinayakNote: {
           text: "Remember all the people you met that day? You were glowing when you came back and told me every single detail"
@@ -97,8 +97,8 @@ export const TIMELINE_DATA: TimelineSectionData[] = [
         date: 'Summit',
         description: 'Lacing up those shoes and conquering the hills. The view from the top makes every step worth it.',
         imageUrls: [
-          'https://picsum.photos/seed/mountain-trail/800/600',
-          'https://picsum.photos/seed/scenic-summit/800/600'
+          '/images/nz-firsts/thirteen.jpeg',
+          '/images/nz-firsts/fourteen.jpeg'
         ],
         vinayakNote: {
           text: "Your very first trek, and you absolutely crushed it! You did so well, and we are going to go on a lot of treks together and i’m doing strength training so don’t worry"
@@ -110,8 +110,7 @@ export const TIMELINE_DATA: TimelineSectionData[] = [
         date: 'Sun & Sand',
         description: 'Sun, sand, and the sound of the waves with friends. A perfect day out in nature.',
         imageUrls: [
-          'https://picsum.photos/seed/sandy-beach/800/600',
-          'https://picsum.photos/seed/friends-beach/800/600'
+          '/images/nz-firsts/fifteen.jpeg'
         ],
         vinayakNote: {
           text: "That day with Vaira and Sanya at the beach was pure happiness. I was thrilled when you called and showed me everything. Don’t worry, babe, we are buying that beach house it’s going to happen done sceneeee!"
